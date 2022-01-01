@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="bgPlay.mp4" />
+    <None Remove="Images\bg.jpg" />
+    <None Remove="Images\bgBack.png" />
+    <None Remove="Images\bgFront.png" />
+    <None Remove="Images\buttonBG.png" />
+    <None Remove="Images\onPlay.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="View\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Xaml.Behaviors.Wpf" Version="1.1.39" />
+    <PackageReference Include="MvvmLightLibs" Version="5.4.1.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="bgPlay.mp4" />
+    <Resource Include="Images\bg.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\bgBack.png" />
+    <Resource Include="Images\bgFront.png" />
+    <Resource Include="Images\buttonBG.png" />
+    <Resource Include="Images\onPlay.png" />
+  </ItemGroup>
+
+</Project>

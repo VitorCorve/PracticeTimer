@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "L+Zs+V3NVBn6bCbSp8NR21E90nVCt3NFZHtvTqwYAjW4P/5mToS6iuGmLVf75pHc9TjXAk0cznx5YrhLq37KUQ==",
+  "success": true,
+  "projectFilePath": "E:\\Vs Projects\\WPFTimer\\WPFTimer\\WPFTimer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Anatoly\\.nuget\\packages\\microsoft.xaml.behaviors.wpf\\1.1.39\\microsoft.xaml.behaviors.wpf.1.1.39.nupkg.sha512",
+    "C:\\Users\\Anatoly\\.nuget\\packages\\mvvmlightlibs\\5.4.1.1\\mvvmlightlibs.5.4.1.1.nupkg.sha512",
+    "C:\\Users\\Anatoly\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Пакет \"MvvmLightLibs 5.4.1.1\" был восстановлен с помощью \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\", а не целевой платформы проекта \"net5.0-windows7.0\". Этот пакет может быть не полностью совместим с вашим проектом.",
+      "libraryId": "MvvmLightLibs",
+      "targetGraphs": [
+        "net5.0-windows7.0"
+      ]
+    }
+  ]
+}
